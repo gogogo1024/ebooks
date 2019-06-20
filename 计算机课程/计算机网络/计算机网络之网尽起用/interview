@@ -1,0 +1,146 @@
+THIS QUIZ CONTRIBUTES MORE THAN 80% WHEN DECIDING WHETHER YOU WILL ENTER THE NEXT ROUND OF INTERVIEW
+这份笔试题的答卷将以80%以上的权重决定您是否能晋级下一轮面试，请不要满足于“差不多”、“还不错”、“就这样”的答案哦！
+
+About us:    http://www.v2ex.com/t/166173
+
+A Video version: https://youtu.be/uQO62wCE8co
+
+Want to know more about us? hai@orgrimmar.io
+
+Not sure what the question is? jh@orgrimmar.io
+
+
+Notes before you begin:
+
+*Please list the reference websites
+
+*Please copy paste and answer in a SEPARATE doc or email
+
+*Compatibility Requirement: 'latest 2 versions' of Chrome
+
+#0 What is your Stackoverflow and github account?
+
+#1 Styling
+1.1 Centering
+Given a box with pre-defined width and height, please centre the box perfectly (horizontally and vertically).
+
+1.2 Layout
+How will you implement the following layout widget?
+
+| ----------------|		←--------
+| 				|
+| fixed height:200px 		|
+| ------------		100% height of screen
+| scrollable			|
+|				|
+|				|
+| ------------                  ←---------
+
+
+#2 Data parsing from HTML
+See codepen here:  http://codepen.io/JLHwung/pen/MyvEXx
+
+Suppose that we have the following DOM structures:
+
+	[lang=jade]
+div.input-hub
+  div.input-element(data-name="a" data-value="1")
+  div.input-element(data-name="a" data-value="2")
+  div.input-element(data-name="b" data-value="3")
+  //input-hub will occur recursively
+  div.input-hub(data-name="c")
+    div.input-element(data-name="d" data-value="4")
+    div.input-hub(data-name="e")
+      div.input-element(data-name="f" data-value="6")
+    div.input-hub(data-name="e")
+      div.input-element(data-name="f" data-value="7")
+    div.input-element(data-name="undefined" data-value="5")
+    // Invalid input should not be parsed
+    div.input-element(data-value="6")
+
+
+
+    	...
+
+How would you parse the data-value as the following result:
+
+	{a: [1, 2], b: 3, c: {d: 4, e: [{f: 6}, {f: 7}], undefined: 5}}
+
+
+Note that the `.input-hub` will appear recursively so we hope that you could give an general solution.
+
+
+#3 Resource Rendering
+How would you solve the FOUC problem? List the reference website and your favored solutions, and why you prefer?
+How do you optimize the network latency due to the frontend resource files in an HTTP server?
+
+
+
+#4 Animation Tuning
+Suppose you implement a slide-out navigation menu, and your customer complained the animation, say 500ms, is a bit too slow for the god’s sake. You try to shorten the duration of animation but find out it takes backend at least 500ms to prepare the data. You know nothing about backend. What should you do?
+
+#5 ECMAScript 5
+
+conversion: Please explain
+              
+           	+[] === 0 // true
+
+2. if `x` is an integer randomly generated from a discrete universal distribution of (-2^53, 2^53], that is, we randomly (not in a mathematical way) choose an integer between (-2^53, 2^53], what is the probability P ( x + 1 === x) ?
+
+Tips from Probability 101: A discrete universal distribution X of [1, 2, 3, 4, 5, 6] is P(X = i) = ⅙, i = 1, 2, …, 6.
+
+#6 git
+Branch split    Suppose you have been working on a branch `foo` for several days, in the middle of break you reformat some code style in a series of commit, then you continue working for another days. After all you raise a pull request and your deadhead reviewer tell you to split your branch into one containing the necessary commits and the other containing ONLY the code style reformat. What should you do in git?
+
+Remote is god   Suppose you have been working on a branch `foo` tracking the remote branch `origin/foo`, you make a mess in the working directory, do some unnecessary commits and finally you feel like starting from remote branch again. The remote branch also have some commits ahead. What should you do in git?
+
+
+
+#7 ECMAScript 2015
+React.js supports Class syntax in ECMAScript 2015. Here is an example of click on & off switch. That is, the first state is off, when you click the trigger, the state will be ‘on’, and click again, will be ‘off’.
+
+export class PingPong extends React.Component {
+  constructor(props) {
+    this.state = {state: props.initialState};
+  }
+  tick() {
+    this.setState({state: this.state.state & 1});
+  }
+  render() {
+    return (
+      <div onClick={this.tick}>
+        On: {this.state.state === ‘1’}
+      </div>
+    );
+  }
+}
+Counter.propTypes = { initialState: React.PropTypes.number };
+Counter.defaultProps = { initialState: 0 };
+
+But there is something wrong within the example, could you figure it out and give us an explanation?
+
+2. Symbol
+Enter and explain the return result of the following programs:
+See code here: http://codepen.io/JLHwung/pen/WwEZVY
+
+let arr = [];
+for (let f of [Symbol, Symbol.for]) {
+    for (let v of [undefined, 'undefined']) {
+        arr.push(f(v))
+    }
+}
+let res = [];
+for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+        res.push(arr[i] === arr[j])
+    }
+}
+console.log(res)
+
+Congratulations, you finished it!
+
+Now you can send the answers to
+
+eng@orgrimmar.io
+
+Thank you for your time!

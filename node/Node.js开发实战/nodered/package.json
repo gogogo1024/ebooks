@@ -1,0 +1,18 @@
+{
+  "name": "nodered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "admin": "node-red-admin",
+    "start": "node-red -v -u ./config -f ./config/flows.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "0.16.2",
+    "node-red-admin": "0.1.3"
+  }
+}

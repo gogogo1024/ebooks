@@ -1,0 +1,31 @@
+{
+  "options": {
+    "simple": true,
+    "resolveWithFullResponse": true,
+    "json": true,
+    "body": {
+      "text": "It seems to me certain that more people are killed out of righteous stupidity than out of wickedness.",
+      "title": "Karl Popper",
+      "index": 32,
+      "page_id": 278
+    },
+    "uri": "http://localhost:9200/quotes/278/32",
+    "method": "PUT"
+  },
+  "error": {
+    "port": 9200,
+    "address": "127.0.0.1",
+    "syscall": "connect",
+    "errno": "EMFILE",
+    "code": "EMFILE"
+  },
+  "cause": {
+    "port": 9200,
+    "address": "127.0.0.1",
+    "syscall": "connect",
+    "errno": "EMFILE",
+    "code": "EMFILE"
+  },
+  "message": "Error: connect EMFILE 127.0.0.1:9200 - Local (undefined:undefined)",
+  "name": "RequestError"
+}

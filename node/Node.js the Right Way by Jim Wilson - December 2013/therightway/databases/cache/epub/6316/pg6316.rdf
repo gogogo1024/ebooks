@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+>
+  <pgterms:ebook rdf:about="ebooks/6316">
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N620ffbb0c6b9406696ae8708f7aca4e5">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/6316/6316.txt">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3958106ff4dd4a4d9dd590aa09d07556">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208355</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-08T12:19:30</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:26.255089</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415649</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N565aed088aa84249adc4f160364f734d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14328</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-02T05:06:32.219275</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2beb8b8306b74efa95a9f61df1f2fa5d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nd825e7f7562a48ed908acd4e48aee333">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Patriotic poetry, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-01</dcterms:issued>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N5492b4bafdc4424594c7b2f7d5160686">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.html.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274826</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:24.837142</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5fc1d80fefcb49daa5c46da8517ea481">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208325</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:24.438122</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N982d1dcd17cf4d28b214a1ccf0739fd9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/1992">
+        <pgterms:alias>Matthews, James Brander</pgterms:alias>
+        <pgterms:alias>Matthews, J. Brander (James Brander)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1852</pgterms:birthdate>
+        <pgterms:name>Matthews, Brander</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Brander_Matthews"/>
+        <pgterms:alias>Penn, Arthur</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1929</pgterms:deathdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/6316/6316.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne792d88b73aa41af867ead76d95b28bf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83810</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-08T12:19:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7346be37c284472180e1032ecb736950">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N394a31117cd74d0480255c3154032581">
+        <rdf:value>PS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:tableOfContents>Boston / Ralph Waldo Emerson -- Paul Revere's ride / Henry Wadsworth Longfellow -- The Battle of Lexington / Sidney Lanier -- Hymn / Ralph Waldo Emerson -- Ticonderoga / V. B. Wilson -- Grandmother's story of Bunker Hill battle / Oliver Wendell Holmes -- Warren's address / John Pierpont -- The old continentals / Guy Humphrey McMaster -- Nathan Hale / Francis Miles Finch -- The little black-eyed rebel / Will Carleton -- Molly Maguire at Monmouth / William Collins -- Song of Marion's men / William Cullen Bryant -- To the memory of the Americans who fell at Eutaw / Philip Freneau -- Perry's victory on Lake Erie / James Gates Percival -- The star spangled banner / Francis Scott Key -- The battle of New Orleans / Thomas Dunn English -- The American flag / Joseph Rodman Drake -- Old Ironsides / Oliver Wendell Holmes -- Monterey / Charles Fenno Hoffman -- The Bivouac of the dead / Theodore O'Hara -- How old Brown took Harper's Ferry / Edmund Clarence Stedman -- Apocalypse / Richard Realf -- The Picket Guard / Ethel Lynn Beers -- The washers of the shroud / James Russell Lowell -- Battle hymn of the republic / Julia Ward Howe -- At Port Royal / John Greenleaf Whittier -- Ready / Phoebe Cary -- "How are you, Sanitary?" / Bret Harte -- Song of the soldiers / Charles G. Halpine -- Jonathan to John / James Russell Lowell -- The Cumberland / Henry Wadsworth Longfellow -- Kearny at Seven Pines / Edmund Clarence Stedman -- Dirge for a soldier / George H. Boker -- Barbara Frietchie / John Greenleaf Whittier -- Fredericksburg / Thomas Bailey Aldrich -- Music in camp / John R. Thompson -- Keenan's charge / George Parsons Lathrop -- The Black regiment / George H. Boker -- John Burns of Gettysburg / Bret Harte -- Twilight on Sumter / Richard Henry Stoddard -- The bay-fight / Henry Howard Brownell -- Sheridan's ride / Thomas Buchanan Read -- Craven / Henry Newbolt -- Sherman's march to the sea / Samuel H. M. Byers -- O Captain! My Captain! / Walt Whitman -- Abraham Lincoln / James Russell Lowell -- The blue and the gray / Francis Miles Finch -- At the Farragut statue / Robert Bridges -- Grant / H. C. Bunner -- The burial of Sherman / Richard Watson Gilder -- The men behind the guns / John Jerome Rooney -- The Regular Army man / Joseph C. Lincoln -- When the great gray ships come in / Guy Wetmore Carryl -- Ad finem fideles / Guy Wetmore Carryl -- Grover Cleveland / Joel Benton -- A toast to our native land / Robert Bridges -- Fifty years / James Weldon Johnson -- The American volunteers / Marie Van Vorst -- I have a rendezvous with death / Alan Seeger -- The choice / Rudyard Kipling -- Annapolis / Waldron Kinsolving Post -- Yanks / James W. Foley -- Any woman to a soldier / Grace Ellery Channing -- To peace, with victory / Corinne Roosevelt Robinson -- You and you / Edith Wharton -- With the tide / Edith Wharton -- America's welcome home / Henry van Dyke -- The unknown soldier / Angela Morgan.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6172e488e891491794c371835a3b066c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:24.743128</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274826</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N6d0ed06c02e64539a32e2fb6d391acc2">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>War poetry, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:25.129142</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7bd74eafa122431b87dbdcec7250cb19">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103873</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:27.383074</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415641</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N95d9642ad8654a6eaaa682a05ef95033">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/6316.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-04T01:26:25.015141</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103873</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N707ff2e4ef6d40fc8d739cb76dbfc5e1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/6316"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</pgterms:downloads>
+    <dcterms:title>Poems of American Patriotism</dcterms:title>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Brander_Matthews">
+    <dcterms:description>Wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

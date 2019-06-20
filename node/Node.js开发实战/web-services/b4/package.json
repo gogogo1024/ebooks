@@ -1,0 +1,58 @@
+{
+  "name": "b4",
+  "version": "1.0.0",
+  "description": "Better Book Bundle Builder",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.1",
+    "morgan": "1.8.1",
+    "nconf": "0.8.4",
+    "nodemon": "1.11.0",
+    "request": "2.79.0",
+    "request-promise": "4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "3.16.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+    "rules": {
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "max-len": [
+        "error",
+        80
+      ],
+      "no-console": "off",
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
+    }
+  }
+}

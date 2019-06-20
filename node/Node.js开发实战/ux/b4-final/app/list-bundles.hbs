@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Bundle Name</th>
+      <th class="actions">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each bundles}}
+    <tr data-id="{{@key}}">
+      <td>{{this}}</td>
+      <td class="actions">
+        <button type="button" class="btn edit">edit</button>
+        <button type="button" class="btn delete">delete</button>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
